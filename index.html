@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">你的名字</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首屏区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>你好，我是<span class="highlight">你的名字</span></h1>
+                <p>前端开发工程师 / UI设计师</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="avatar.jpg" alt="个人头像">
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>这里是你的个人介绍...</p>
+            </div>
+            <div class="skills">
+                <div class="skill-item">
+                    <i class="icon-code"></i>
+                    <span>Web开发</span>
+                </div>
+                <!-- 添加更多技能 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section id="portfolio" class="portfolio">
+        <h2>作品集</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="project1.jpg" alt="项目1">
+                <div class="portfolio-info">
+                    <h3>电商平台设计</h3>
+                    <p>基于React的现代电商网站，包含完整的购物流程和后台管理系统</p>
+                    <div class="portfolio-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <img src="project2.jpg" alt="项目2">
+                <div class="portfolio-info">
+                    <h3>社交媒体应用</h3>
+                    <p>移动优先的社交媒体应用，支持实时聊天和多媒体分享</p>
+                    <div class="portfolio-tags">
+                        <span>Vue.js</span>
+                        <span>WebSocket</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <img src="project3.jpg" alt="项目3">
+                <div class="portfolio-info">
+                    <h3>数据可视化平台</h3>
+                    <p>企业级数据分析和可视化解决方案，支持多种图表类型</p>
+                    <div class="portfolio-tags">
+                        <span>D3.js</span>
+                        <span>TypeScript</span>
+                        <span>Express</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <div class="social-links">
+            <a href="#" class="social-link">GitHub</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">Email</a>
+        </div>
+    </section>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" class="back-to-top">↑</button>
+
+    <footer>
+        <p>© 2024 你的名字. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
